@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Multilanguage</title>
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/lang/en.js"></script>
+    <script src="assets/lang/tm.js"></script>
+    <script src="assets/js/main.js"></script>
+    <style>
+        html,body {
+            font-family: 'Arima Madurai', cursive;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <span class="lkey" id="language"></span> <select id="mainLanguage" onchange="g_main.changeLanguage(this.value);">
+                    <option value="en">English</option>
+                    <option value="tm">தமிழ்</option>
+                </select>
+    <div class="lkey" id="Introduction"></div>
+    <div class="lkey" id="About"></div>
+</body>
+</html>
